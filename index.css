@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  min-width: 100vw;
+  max-width: 100vw;
+  min-height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: salmon;
+}
+
+#wrapper-box {
+  min-width: 65vw;
+  max-width: 65vw;
+  min-height: 60vh;
+  max-height: 60vh;
+  background-color: antiquewhite;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  overflow-y: auto;
+  box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+#todo-title {
+  margin-top: 3vw;
+  padding: 1vw;
+  background-color: turquoise;
+  border-radius: 15px;
+}
+
+#todo-subtitle {
+  margin: 2vw 0 2vw 0;
+}
+
+#todo-input {
+  margin-bottom: 2vw;
+}
